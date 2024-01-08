@@ -1,0 +1,62 @@
+body{
+    background: linear-gradient(to right,rgb(253, 239, 255),rgb(255, 221, 255),rgb(216, 187, 255));
+    color: white;
+    font-family: sans-serif;
+}
+#config{
+    height: 90vw;
+}
+.theme form{
+    text-align: center;
+    margin: 5vw 8vw;
+    padding: 7vw 0;
+    background-color: rgb(220, 187, 210, 0.6);
+    box-shadow: 0px 0px 12px grey;
+}
+.theme form h1{
+    letter-spacing: 3px;
+    text-shadow: 3px 3px 2px rgb(15, 34, 204);
+}
+.theme form input,select{
+    margin: 1.5vw;
+    padding: 1.8vw;
+    width: 40vw;
+    letter-spacing: 1px;
+    font-size: 1.1vw;
+}
+#config form select{
+    background-color: white;
+    border-width: 1px;
+}
+.theme form fieldset{
+    display: flex;
+    margin: 1vw 0;
+    padding: 2vw 0;
+    width: 40vw;
+    border-color: blue;
+    margin-left: auto;
+    margin-right: auto;
+}
+.theme form fieldset legend{
+    color: blue;
+}
+.theme form fieldset label{
+    color: rgb(146, 146, 146);
+}
+.theme form fieldset .check{
+    margin: 0;
+    width: 3vw;
+}
+.theme form #submit{
+    background-color: rgb(142, 113, 180);
+    border: solid blue 1px;
+    color: white;
+    font-weight: bolder;
+    width: 20vw;
+    border-radius: 10px;
+}
+.theme form #submit:hover{
+    border-style: outset;
+    box-shadow: 1px 0px 6px blue;
+    text-shadow: 1px 1px 1px purple;
+}

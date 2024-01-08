@@ -1,0 +1,57 @@
+body{
+    background: linear-gradient(to right,rgb(254, 246, 255),rgb(248, 225, 248),rgb(226, 204, 255));
+    font-family: sans-serif;
+    color: white;
+}
+.theme #box{
+    width: 70%;
+    margin: 2vw auto;
+    text-align: center;
+    background-color: rgb(220, 187, 210, 0.6);
+    padding: 5vw 2vw;
+    box-shadow: 0px 0px 12px grey;  
+}
+.theme #box h2{
+    text-shadow: 2px 1px 2px blue;
+}
+.theme #box div{
+    display: flex;
+    text-align: left;
+    border-bottom: 1px solid gray;
+}
+.theme #box h3{
+    width: 50%;
+    margin-left: 5vw;
+    font-size: 1.6vw;
+    letter-spacing: 1px;
+    text-shadow: 2px 1px 2px gray;
+}
+.theme #box #buttonBox{
+    background-color: white;
+    width: 5vw;
+    height: 2vw;
+    border-radius: 20px;
+    border: 1px solid grey;
+    margin: auto;
+    position:relative;
+}
+.theme #box #buttonBox button{
+    background-color: grey;
+    border-style: none;
+    text-decoration: none;
+    border-radius: 50px;
+    margin-top: 0.1vw;
+    width: 35%;
+    margin: 0.1vw 0.2vw;
+    height: 90%;
+    
+}
+.theme #box #buttonBox #left{
+    background-color: rgb(10, 84, 121);
+    position: absolute;
+    left:0px;
+}
+.theme #box #buttonBox #right{
+    position: absolute;
+    right: 0px;
+}

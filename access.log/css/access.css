@@ -1,0 +1,42 @@
+#accesslog{
+    height: 135vw;
+}
+#accesslog form select, input[type="submit"]{
+    margin: 1vw;
+    letter-spacing: 2px;
+    border-radius: 8px;
+}
+#accesslog form select{
+    width: 25vw;
+    padding: 1vw;
+    font-family: sans-serif;
+    color: grey;
+    background-color: white;
+}
+#accesslog form input[type="submit"]{
+    color: white;
+    text-align: center;
+    font-weight: bolder;
+    border: 1px solid gray;
+    background-color: rgb(50,60,90);
+    margin-left: 0;
+    padding: 1.2vw;
+}
+#accesslog h1{
+    color: white;
+    letter-spacing: 2px;
+    text-shadow: 2px 0px 3px gray;
+    margin: 1vw;
+    margin-top: 8vw;
+}
+#accesslog #access{
+    margin-top: 2vw;
+    width: 70%;
+}
+#accesslog #access tr{
+    background-color: rgba(138, 145, 175, 0.8);
+}
+#accesslog #access tr:first-child{
+    background-color: rgb(93, 69, 124);
+    font-weight: bolder;
+}

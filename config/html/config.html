@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Configuration Web</title>
+    <link rel="stylesheet" href="../css/config.css">
+    <link rel="stylesheet" href="../../fontawesome-free-6.4.2-web/css/all.css">
+    <link rel="stylesheet" href="../../log/css/pages.css">
+</head>
+<body>
+    <section class="theme" id="config">
+        <form action="../cgi/configurated.cgi" method="get">
+            <h1>VirtualHost</h1>
+            <input type="text" name="vname" placeholder="Virtual Name" required><br>
+            <input type="text" name="sname" placeholder="Server Name" required><br>
+            <input type="text" name="droot" placeholder="Document Root" required><br>
+            <input type="text" name="scalias" placeholder="Script Alias"><br>
+            <fieldset>
+                <legend> Options </legend>
+                <input type="checkbox" id="index" name="index" class="check"><label for="index">Indexes</label><br>
+                <input type="checkbox" id="exec" name="exec" class="check"><label for="exec">ExecCGI</label><br>
+                <input type="checkbox" id="link" name="link" class="check"><label for="link">FollowSymLinks</label><br>
+            </fieldset>
+            <fieldset id="add">
+                <legend> AddHandler </legend>
+                <input type="checkbox" id="cgi" name="cgi" class="check"><label for="cgi">.cgi</label><br>
+                <input type="checkbox" id="py" name="py" class="check"><label for="py">.py</label><br>
+                <input type="checkbox" id="pl" name="pl" class="check"><label for="pl">.pl</label><br>
+            </fieldset>
+            <select name="allow">
+                <option disabled>AllowOverride</option>
+                <option value="All">All</option>
+                <option value="None">None</option>
+            </select><br>
+            <fieldset>
+                <legend> Required </legend>
+                <input type="checkbox" id="all" class="check" disabled checked><label for="all">All</label><br>
+            </fieldset>
+            <input type="submit" value="Create" id="submit">
+        </form>
+    </section>
+</body>
+</html>

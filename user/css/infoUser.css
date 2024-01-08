@@ -1,0 +1,31 @@
+body{
+    color: white; 
+    text-align: center;
+    background: linear-gradient(to right,rgb(255, 213, 255),rgb(250, 225, 250),rgb(217, 195, 252));
+    font-family: sans-serif;
+}
+.theme h1{
+    letter-spacing: 1px;
+    text-shadow: 2px 1px 2px blue;
+    margin: 2vw;
+}
+.theme #user{
+    border-collapse: collapse;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 0px 0px 10px gray;
+}
+.theme #user td{
+    padding: 2vw;
+}
+.theme #user tr{
+    background-color: rgba(138, 145, 175, 0.8);
+    border: 1px solid white;
+}
+.theme #user tr:first-child{
+    background-color: rgb(93, 69, 124);
+    font-weight: bolder;
+}
+.theme #user tr:hover{
+    background-color: black;
+}
